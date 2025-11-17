@@ -1,0 +1,148 @@
+/* Reset default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Javanese;
+  src: url(/Font/javatext.ttf);
+}
+
+body {
+  font-family: Javanese;
+}
+html::-webkit-scrollbar {
+    width: 16px;
+    height: 16px;
+}
+
+html::-webkit-scrollbar-thumb {
+    background: #434343;
+    border-radius: 16px;
+    box-shadow: inset 2px 2px 2px hsla(0,0%,100%,.25),inset -2px -2px 2px rgba(0,0,0,.25);
+}
+
+html::-webkit-scrollbar-track {
+    background: linear-gradient(90deg,#434343,#434343 1px,#111 0,#111);
+}
+
+/* Header styles */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000000;
+  padding: 10px 30px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* ensures it stays above other elements */
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between; /* space between links and button */
+  align-items: center;
+  padding: 5px 20px;
+  height: 60px;
+  background-color: black; /* or your nav color */
+}
+
+/* Nav bar list styles */
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 70px; /* space between links */
+  padding: 0;
+  margin: 0;
+}
+
+/* Nav bar links */
+.navbar a {
+  position: relative;
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  font-size: 21px;
+}
+
+.navbar a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: white;
+  transition: width 0.3s ease;
+}
+
+.navbar a:hover::after {
+  width: 100%;
+}
+
+/* Reserve Button */
+.reserve-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.reserve-button:hover {
+  background-color: white;
+  color: black;
+}
+
+
+/* Hero Section */
+.hero {
+  background: url("/Images/it.jpg") no-repeat center center/cover;
+  height: 100vh; /* full screen height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  padding: 180px 20px 40px 20px;
+}
+
+/* Hero Text */
+.hero-content h1 {
+  animation: fadeIn 1s;
+  font-size: 64px;
+  font-weight: bold;
+}
+
+.hero-content p {
+  animation: fadeIn 1s;
+  font-size: 28px;
+  margin-top: 10px;
+}
+.center-image {
+  width: 400px;            /* or any size */
+  height: 300px;
+  object-fit: cover;       /* ensures it fills the circle */
+  border-radius: 50%;      /* makes it perfectly round */
+}
+
+
+@keyframes fadeIn {
+    from{
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+
+    to{
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
