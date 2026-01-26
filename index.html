@@ -1,33 +1,45 @@
 <!DOCTYPE html>
-<html lang="ro">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>La Notte</title>
-  <link rel="stylesheet" href="CSS/style.css">
+  <link rel="stylesheet" href="style.css" />
   <link rel="icon" type="image/x-icon" href="Images/icon2.ico">
+  
 </head>
 <body>
 
-  <!-- Header -->
+  <!-- Header / Navigation -->
   <header class="header">
-    <nav class="navbar">
-      <ul>
-        <li><a href="index.html" class="active">Home</a></li>
-        <li><a href="HTML/meniu.html">Meniu</a></li>
-        <li><a href="HTML/contact.html">Contact</a></li>
-        <li><a href="#despre">Despre noi</a></li>
-        <button class="reserve-button">Fa o rezervare</button>
-      </ul>
+    <div class="logo">La Notte</div>
+    <nav class="nav">
+      <a href="HTML/Rezervare.html">Rezervați</a>
+      <a href="PDF/Despre Noi.pdf" target="_blank">Despre Noi</a>
+      <a href="#">Oferte Speciale</a>
+      <a href="#">Contact</a>
     </nav>
   </header>
 
   <!-- Hero Section -->
   <section class="hero">
-    <div class="hero-content">
-      <img src="Images/LOGO2.jpg" alt="Welcome Image" class="center-image" />
+    <div class="hero-overlay">
+      <h1>Savurați Gustul Autentic Italienesc</h1>
+      <a class="btn" href="PDF/Dark Brown and Orange Italian Food Presentation.pdf" target="_blank">Meniu</a>
     </div>
   </section>
+
+  <!-- Featured Section -->
+  <section class="features">
+    <div class="feature-card">Seasonal Menu</div>
+    <div class="feature-card">Chef’s Specials</div>
+    <div class="feature-card">Private Events</div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>© 2025 FE La Notte SRL</p>
+  </footer>
 
 </body>
 </html>

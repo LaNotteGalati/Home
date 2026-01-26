@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Reservations | Your Restaurant</title>
+
+  <!-- Standalone CSS -->
+  <link rel="stylesheet" href="../CSS/Rezervare.css" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="logo">La Notte</div>
+    <nav class="nav">
+      <a href="../index.html">Home</a>
+      <a href="#">Meniu</a>
+      <a class="active" href="reservations.html">Rezervați</a>
+      <a href="#">Oferte Speciale</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-overlay">
+      <h1>Rezervați-vă masa</h1>
+      <p>Rezervați fară nici-o grijă</p>
+    </div>
+  </section>
+
+  <!-- Reservation Form -->
+  <section class="reservation-section">
+    <div class="reservation-container">
+      <h2>Book Your Table</h2>
+      <p class="subtitle">Tell us when you're coming and we’ll take care of the rest.</p>
+
+      <form class="reservation-form">
+
+        <label>Full Name</label>
+        <input type="text" placeholder="Your Name" required />
+
+        <label>Email Address</label>
+        <input type="email" placeholder="email@example.com" required />
+
+        <label>Phone Number</label>
+        <input type="tel" placeholder="+40 ..." required />
+
+        <div class="row">
+          <div>
+            <label>Date</label>
+            <input type="date" required />
+          </div>
+          <div>
+            <label>Time</label>
+            <input type="time" required />
+          </div>
+        </div>
+
+        <label>Guests</label>
+        <select required>
+          <option value="">Number of Guests</option>
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5+</option>
+        </select>
+
+        <button type="submit">REZERVĂ ACUM</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    © 2025 FE La Notte SRL.
+  </footer>
+
+</body>
+</html>
