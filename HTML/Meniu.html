@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Menu - La Notte</title>
+<link rel="stylesheet" href="../CSS/Meniu.css">
+</head>
+
+<body>
+
+<header class="navbar">
+    <h1>LA NOTTE</h1>
+
+    <nav>
+        <a href="../index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="../reservations/reservations.html">Reservations</a>
+    </nav>
+</header>
+
+
+<!-- SPECIALTY SECTION -->
+
+<section class="specialty">
+
+    <div class="specialty-text">
+        <h2>Specialitatea Restaurantului</h2>
+        <h3>MANTĂ A NOPȚII</h3>
+        <p>O experiență culinară
+concepută sub semnul rafinamentului nocturn....
+Vă invităm să descoperiți ravioli proaspeți, creați cu un
+aluat întunecat, ce amintește de un cer în miez de noapte
+(infuzat cu cerneală naturală de sepie). Această “Mantă a
+Nopții” îmbracă o umplutură catifelată de ricotta fină și se
+așează peste un Ragù di Anatra (ragu de rață), gătit ore în
+șir, o carne nobilă, desprinsă de pe os, îmbăiată cu vin roșu
+robust și ierburi aromate. Finalul este o reverență adusă
+luxului, un voal delicat de ulei de Trufă Neagră, ce adaugă
+o notă pământie, intensă și misterioasă, desăvârșită de
+așchii de Parmigiano.
+Un preparat elegant, creat de Familia La Notte
+        </p>
+
+        <span class="price">80 LEI / 400 g</span>
+    </div>
+
+    <img src="../images/Meniu/Manta a noptii.png">
+
+</section>
+
+<section id="menu"></section>
+
+<script src="../JS/meniu-data.js"></script>
+
+<script>
+
+const container = document.getElementById("menu");
+
+for (const category in menu){
+
+const section = document.createElement("section");
+section.className = "menu-category";
+
+section.innerHTML = `<h2>${category}</h2>`;
+
+const grid = document.createElement("div");
+grid.className = "menu-grid";
+
+menu[category].forEach(item => {
+
+grid.innerHTML += `
+<article class="dish">
+
+<img src="${item.image}">
+
+<div class="dish-body">
+<h3>${item.name}</h3>
+<p>${item.desc}</p>
+<span class="price">${item.price}</span>
+</div>
+
+</article>
+`;
+
+});
+
+section.appendChild(grid);
+container.appendChild(section);
+
+}
+
+</script>
+
+</body>
+</html>
