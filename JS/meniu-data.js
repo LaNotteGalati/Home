@@ -102,46 +102,166 @@ desc: "Sos, mozzarella, salam, chili"
 
 Lasagna: [
 {
-name: "Tiramisu",
-price: "$9",
-image: "../images/tiramisu.jpg",
-desc: "Mascarpone cream and espresso"
-}
+name: "Lasagna clasică 350g",
+price: "22 LEI",
+image: "../Images/Meniu/Lasagna/Clasica.jpg",
+desc: "Carne tocată de vită, ceapă, morocv, usturoi, pastă de tomate, roșii, vin roșu, sare, piper, oregano, busuioc"
+},
+{
+name: "Lasagna vegetariană 400g",
+price: "35 LEI",
+image: "../Images/Meniu/Lasagna/Vegetariana.jpg",
+desc: "dovleac, vânătă, ardei gras, ciuperci, ceapă, roșii, sos bechamel, mozzarella, usturoi"
+},
+{
+name: "Lasagna cu pui și spanac 400g",
+price: "33 LEI",
+image: "../Images/Meniu/Lasagna/SpanacSiPui.jpg",
+desc: "Piept de pui, spanac, ceapă, usturoi, sos bechamel, brânză ricotta, mozzarella"
+},
+{
+name: "Lasagna grecească 450g",
+price: "30 LEI",
+image: "../Images/Meniu/Lasagna/Greceasca.jpg",
+desc: "Vânătă, carne tocată porc, ceapă, roșii, sos bechamel, brânză feta"
+},
 ],
 
 Salate: [
 {
-name: "Tiramisu",
-price: "$9",
-image: "../images/tiramisu.jpg",
-desc: "Mascarpone cream and espresso"
+name: "Salată Caprese 250g",
+price: "25 LEI",
+image: "../Images/Meniu/Salate/Caprese.jpg",
+desc: "Roșii, mozzarella, busuioc, ulei de măsline, sare, piper"
+},
+{
+name: "Salată Toscană cu pâine 300g",
+price: "22 LEI",
+image: "../Images/Meniu/Salate/Toscana.jpg",
+desc: "Roșii, castravete, ceapă roșie, pâine, oțet de vin roșu, ulei de măsline, sare, piper, busuioc"
+},
+{
+name: "Salată cu ton și fasole 300g",
+price: "23 LEI",
+image: "../Images/Meniu/Salate/TonSiFasole.jpg",
+desc: "Ton, fasole albă, ceapă roșie, zeamă de lămaie, ulei de măsline, sare, piper, pătrunjel"
+},
+{
+name: "Salată de vinete 250g",
+price: "21 LEI",
+image: "../Images/Meniu/Salate/Vinete.jpg",
+desc: "Vinete, ardei roșu, roșii, usturoi, ulei de măsline, oțet balsamic, sare, piper, busuioc"
 }
 ],
 
 Deserturi: [
 {
-name: "Tiramisu",
-price: "$9",
-image: "../images/tiramisu.jpg",
-desc: "Mascarpone cream and espresso"
-}
+name: "Tiramisu 200g",
+price: "28 LEI",
+image: "../Images/Meniu/Deserturi/Tiramisu.jpg",
+desc: "Pișcoturi, cafea, mascarpone, cacao"
+},
+{
+name: "Panna cotta 180g",
+price: "24 LEI",
+image: "../Images/Meniu/Deserturi/PannaCotta.png",
+desc: "Cremă fină de lapte, frișcă, sos de fructe"
+},
+{
+name: "Canolli Sicilliani 150g",
+price: "30 LEI",
+image: "../Images/Meniu/Deserturi/Cannoli.jpg",
+desc: "Tuburi crocante cu cremă de ricotta, ciocolată"
+},
+{
+name: "Zabaglione 150g",
+price: "26 LEI",
+image: "../Images/Meniu/Deserturi/Zabaglione.jpg",
+desc: "Cremă de gălbenușuri, zahăr, vin Marsana"
+},
 ],
 
 "Meniu copii": [
 {
-name: "Tiramisu",
-price: "$9",
-image: "../images/tiramisu.jpg",
-desc: "Mascarpone cream and espresso"
-}
+name: "Mini pizza margherita 200g",
+price: "25 LEI",
+image: "../Images/Meniu/Meniuri copii/MiniPizza.png",
+desc: "Sos roșii, mozzarella, busuioc"
+},
+{
+name: "Penne cu brânză 200g",
+price: "25 LEI",
+image: "../Images/Meniu/Meniuri copii/Penne.jpg",
+desc: "Penne, sos de smântână dulce, cheddar, parmezan"
+},
+{
+name: "Piept de pui la grătar cu piure de cartofi și legume 250 g",
+price: "30 LEI",
+image: "../Images/Meniu/Meniuri copii/Pui.jpg",
+desc: ""
+},
+{
+name: "Spaghete bolognese 150g",
+price: "23 LEI",
+image: "../Images/Meniu/Meniuri copii/Bolognese.png",
+desc: "Spaghete, sos ragu/bolognese din carne, roșii, parmezan"
+},
 ],
 
 "Băuturi non-alcoolice": [
 {
-name: "Tiramisu",
-price: "$9",
-image: "../images/tiramisu.jpg",
-desc: "Mascarpone cream and espresso"
+name: "Apă plată/minerală 330ml",
+price: "7 LEI",
+image: "../Images/Meniu/Bauturi non alcoolice/",
+desc: ""
+},
+{
+name: "Fresh portocale 250ml",
+price: "12 LEI",
+image: "../Images/Meniu/Bauturi non alcoolice/",
+desc: ""
+},
+{
+name: "Suc Coca-Cola 250ml",
+price: "9 LEI",
+image: "../Images/Meniu/Bauturi non alcoolice/",
+desc: ""
+},
+{
+name: "Suc Mirinda 250ml",
+price: "8 LEI",
+image: "../Images/Meniu/Bauturi non alcoolice/",
+desc: ""
+},
+{
+name: "Suc Sprite 250ml",
+price: "8 LEI",
+image: "../Images/Meniu/Bauturi non alcoolice/",
+desc: ""
+},
+{
+name: "Suc Ice Tea 250ml",
+price: "7 LEI",
+image: "../Images/Meniu/Bauturi non alcoolice/",
+desc: ""
+},
+{
+name: "Suc Mountain Dew 250ml",
+price: "8 LEI",
+image: "../Images/Meniu/Bauturi non alcoolice/",
+desc: ""
+},
+{
+name: "Ceai Nestea 250ml",
+price: "7 LEI",
+image: "../Images/Meniu/Bauturi non alcoolice/",
+desc: ""
+},
+{
+name: "Limonadă Biborțeni 250ml",
+price: "9 LEI",
+image: "../Images/Meniu/Bauturi non alcoolice/",
+desc: ""
 }
 ],
 
@@ -156,19 +276,61 @@ desc: "Mascarpone cream and espresso"
 
 "Cafele Calde": [
 {
-name: "Tiramisu",
-price: "$9",
-image: "../images/tiramisu.jpg",
-desc: "Mascarpone cream and espresso"
+name: "Espresso Scurt 30 ml",
+price: "9 LEI",
+image: "../Images/Meniu/Cafele",
+desc: ""
+},
+{
+name: "Espresso Scurt 30 ml",
+price: "9 LEI",
+image: "../Images/Meniu/Cafele",
+desc: ""
+},
+{
+name: "Espresso Scurt 30 ml",
+price: "9 LEI",
+image: "../Images/Meniu/Cafele",
+desc: ""
+},
+{
+name: "Espresso Scurt 30 ml",
+price: "9 LEI",
+image: "../Images/Meniu/Cafele",
+desc: ""
+},
+{
+name: "Espresso Scurt 30 ml",
+price: "9 LEI",
+image: "../Images/Meniu/Cafele",
+desc: ""
+},
+{
+name: "Espresso Scurt 30 ml",
+price: "9 LEI",
+image: "../Images/Meniu/Cafele",
+desc: ""
 }
 ],
 
 "Cafele reci": [
 {
-name: "Tiramisu",
-price: "$9",
-image: "../images/tiramisu.jpg",
-desc: "Mascarpone cream and espresso"
+name: "Frappe Clasic (Grecesc) 350 ml",
+price: "18 LEI",
+image: "../Images/Meniu/Cafele",
+desc: "Cafea instant, apă rece, gheață, zahăr (opțional), spumă consistentă"
+},
+{
+name: "Frappe Clasic (Grecesc) 350 ml",
+price: "18 LEI",
+image: "../Images/Meniu/Cafele",
+desc: "Cafea instant, apă rece, gheață, zahăr (opțional), spumă consistentă"
+},
+{
+name: "Frappe Clasic (Grecesc) 350 ml",
+price: "18 LEI",
+image: "../Images/Meniu/Cafele",
+desc: "Cafea instant, apă rece, gheață, zahăr (opțional), spumă consistentă"
 }
 ]
 
