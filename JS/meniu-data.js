@@ -212,125 +212,203 @@ desc: "Spaghete, sos ragu/bolognese din carne, roșii, parmezan"
 {
 name: "Apă plată/minerală 330ml",
 price: "7 LEI",
-image: "../Images/Meniu/Bauturi non alcoolice/",
+image: "../Images/Meniu/Bauturi non alcoolice/Apa.jpg",
 desc: ""
 },
 {
 name: "Fresh portocale 250ml",
 price: "12 LEI",
-image: "../Images/Meniu/Bauturi non alcoolice/",
+image: "../Images/Meniu/Bauturi non alcoolice/FreshPortocale.jpg",
 desc: ""
 },
 {
 name: "Suc Coca-Cola 250ml",
 price: "9 LEI",
-image: "../Images/Meniu/Bauturi non alcoolice/",
+image: "../Images/Meniu/Bauturi non alcoolice/Cola.jpg",
 desc: ""
 },
 {
 name: "Suc Mirinda 250ml",
 price: "8 LEI",
-image: "../Images/Meniu/Bauturi non alcoolice/",
+image: "../Images/Meniu/Bauturi non alcoolice/Mirinda.jpg",
 desc: ""
 },
 {
 name: "Suc Sprite 250ml",
 price: "8 LEI",
-image: "../Images/Meniu/Bauturi non alcoolice/",
-desc: ""
-},
-{
-name: "Suc Ice Tea 250ml",
-price: "7 LEI",
-image: "../Images/Meniu/Bauturi non alcoolice/",
+image: "../Images/Meniu/Bauturi non alcoolice/Sprite.jpg",
 desc: ""
 },
 {
 name: "Suc Mountain Dew 250ml",
 price: "8 LEI",
-image: "../Images/Meniu/Bauturi non alcoolice/",
+image: "../Images/Meniu/Bauturi non alcoolice/MountainDew.jpg",
 desc: ""
 },
 {
 name: "Ceai Nestea 250ml",
 price: "7 LEI",
-image: "../Images/Meniu/Bauturi non alcoolice/",
+image: "../Images/Meniu/Bauturi non alcoolice/Nestea.jpg",
 desc: ""
 },
 {
-name: "Limonadă Biborțeni 250ml",
+name: "Limonadă 250ml",
 price: "9 LEI",
-image: "../Images/Meniu/Bauturi non alcoolice/",
+image: "../Images/Meniu/Bauturi non alcoolice/Limonada.jpg",
 desc: ""
 }
 ],
 
 "Băuturi alcoolice": [
 {
-name: "Tiramisu",
-price: "$9",
-image: "../images/tiramisu.jpg",
-desc: "Mascarpone cream and espresso"
-}
+name: "Aperol Spritz 250ml",
+price: "28 LEI",
+image: "../Images/Meniu/Bauturi alcoolice/AperolSpritz.jpg",
+desc: "Aperol, Prosecco, apă minerală, felie de portocală"
+},
+{
+name: "Hugo Spritz 250ml",
+price: "29 LEI",
+image: "../Images/Meniu/Bauturi alcoolice/HugoSpritz.jpg",
+desc: "Prosecco, soc, mentă, apă minerală"
+},
+{
+name: "Prosecco la pahar 150ml",
+price: "20 LEI",
+image: "../Images/Meniu/Bauturi alcoolice/Prosecco.jpg",
+desc: ""
+},
+{
+name: "Campari cu portocală 200ml",
+price: "25 LEI",
+image: "../Images/Meniu/Bauturi alcoolice/Campari.jpg",
+desc: "Campari, suc de portocale"
+},
+{
+name: "Limoncello (shot) 40ml",
+price: "10 LEI",
+image: "../Images/Meniu/Bauturi alcoolice/Limoncello.jpg",
+desc: ""
+},
+{
+name: "Negroni 120ml",
+price: "30 LEI",
+image: "../Images/Meniu/Bauturi alcoolice/Negroni.png",
+desc: ""
+},
+{
+name: "Vin alb 150ml",
+price: "15 LEI",
+image: "../Images/Meniu/Bauturi alcoolice/VinAlb.jpg",
+desc: ""
+},
+{
+name: "Vin roșu 150ml",
+price: "20 LEI",
+image: "../Images/Meniu/Bauturi alcoolice/VinRosu.jpg",
+desc: ""
+},
+{
+name: "Bere Blondă 330ml",
+price: "10 LEI",
+image: "../Images/Meniu/Bauturi alcoolice/Bere.jpg",
+desc: "Bergenbier, Ciucas, Corona"
+},
+{
+name: "Strongbow 330ml",
+price: "28 LEI",
+image: "../Images/Meniu/Bauturi alcoolice/Strongbow.jpg",
+desc: ""
+},
 ],
 
 "Cafele Calde": [
 {
 name: "Espresso Scurt 30 ml",
 price: "9 LEI",
-image: "../Images/Meniu/Cafele",
+image: "../Images/Meniu/Cafele/Scurt.jpg",
 desc: ""
 },
 {
-name: "Espresso Scurt 30 ml",
-price: "9 LEI",
-image: "../Images/Meniu/Cafele",
+name: "Espresso Lung 60 ml",
+price: "10 LEI",
+image: "../Images/Meniu/Cafele/lung.jpg",
 desc: ""
 },
 {
-name: "Espresso Scurt 30 ml",
-price: "9 LEI",
-image: "../Images/Meniu/Cafele",
-desc: ""
+name: "Cappuccino 150 ml",
+price: "12 LEI",
+image: "../Images/Meniu/Cafele/Cappuccino.jpg",
+desc: "Espresso, lapte spumat cremă"
 },
 {
-name: "Espresso Scurt 30 ml",
-price: "9 LEI",
-image: "../Images/Meniu/Cafele",
-desc: ""
+name: "Caffe Latte 220 ml",
+price: "14 LEI",
+image: "../Images/Meniu/Cafele/Latte.jpg",
+desc: "Espresso, lapte cald, strat fin de spumă"
 },
 {
-name: "Espresso Scurt 30 ml",
-price: "9 LEI",
-image: "../Images/Meniu/Cafele",
-desc: ""
+name: "Mocha Caldă 250 ml",
+price: "15 LEI",
+image: "../Images/Meniu/Cafele/Mocha.jpg",
+desc: "Espresso, ciocolată caldă, lapte texturat, frișcă (opțional)"
 },
 {
-name: "Espresso Scurt 30 ml",
-price: "9 LEI",
-image: "../Images/Meniu/Cafele",
-desc: ""
+name: "Flat white 180ml",
+price: "10 LEI",
+image: "../Images/Meniu/Cafele/Flat White.jpg",
+desc: "Espresso dublu, lapte fin texturat"
 }
 ],
 
 "Cafele reci": [
 {
-name: "Frappe Clasic (Grecesc) 350 ml",
-price: "18 LEI",
-image: "../Images/Meniu/Cafele",
-desc: "Cafea instant, apă rece, gheață, zahăr (opțional), spumă consistentă"
+name: "Iced Americano 300 ml",
+price: "11 LEI",
+image: "../Images/Meniu/Cafele/Reci/IcedAmericano.jpg",
+desc: "Espresso dublu, apă rece, cuburi de gheață"
+},
+{
+name: "Iced Latte 350 ml",
+price: "12 LEI",
+image: "../Images/Meniu/Cafele/Reci/IcedLatte.jpg",
+desc: "Espresso dublu, lapte rece, cuburi de gheață"
+},
+{
+name: "Iced Caramel Macchiato 350 ml",
+price: "11 LEI",
+image: "../Images/Meniu/Cafele/Reci/IcedCaramel.jpg",
+desc: "Espresso, lapte rece, sirop caramel, gheață, sos caramel"
+},
+{
+name: "Affogato 120 ml",
+price: "13 LEI",
+image: "../Images/Meniu/Cafele/Reci/Affogato.jpg",
+desc: "O cupă de înghețată de vanilie, espresso fierbinte turnat deasupra"
+},
+{
+name: "Cold Brew Tonic 300 ml",
+price: "15 LEI",
+image: "../Images/Meniu/Cafele/Reci/Tonic.jpg",
+desc: "Cafea Cold Brew, apă tonică, felie de lămâie, gheață"
 },
 {
 name: "Frappe Clasic (Grecesc) 350 ml",
 price: "18 LEI",
-image: "../Images/Meniu/Cafele",
+image: "../Images/Meniu/Cafele/Reci/FrappeGrecesc.jpg",
 desc: "Cafea instant, apă rece, gheață, zahăr (opțional), spumă consistentă"
 },
 {
-name: "Frappe Clasic (Grecesc) 350 ml",
-price: "18 LEI",
-image: "../Images/Meniu/Cafele",
-desc: "Cafea instant, apă rece, gheață, zahăr (opțional), spumă consistentă"
+name: "Frappe Caramel Vanilat 400 ml",
+price: "20 LEI",
+image: "../Images/Meniu/Cafele/Reci/CaramelFrappe.jpg",
+desc: "Espresso (sau cafea instant), sirop caramel, sirop vanilie, lapte, gheață, frișcă"
+},
+{
+name: "Frappe Ciocolată Albă & Cafea 400 ml",
+price: "22 LEI",
+image: "../Images/Meniu/Cafele/Reci/FrappeCiocolata.jpg",
+desc: "Espresso, sos ciocolată albă, lapte, gheață, frișcă (opțional)"
 }
 ]
 
