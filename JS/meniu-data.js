@@ -332,7 +332,7 @@ desc: ""
 {
 name: "Espresso Lung 60 ml",
 price: "10 LEI",
-image: "../Images/Meniu/Cafele/Lung.jpg",
+image: "../Images/Meniu/Cafele/lung.jpg",
 desc: ""
 },
 {
